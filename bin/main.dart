@@ -24,6 +24,10 @@ void main(List<String> arguments) {
     if (shows[i] == shows[i + 1]) {
       conShows++;
     }
+    print('test');
+    for (int i = 0; i < 4; i++) {
+      print('hey');
+    }
   }
 
   if (validTvs <= 1 && conShows >= 2 || conShows >= 3) {
